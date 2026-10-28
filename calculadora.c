@@ -17,7 +17,6 @@ int main() {
     int sum = mN1 + mN2;
     int mns = mN1 - mN2;
     int mlt = mN1 * mN2;
-    int dvs = mN1 / mN2;
   
     
     if (op == '*') {
@@ -29,6 +28,7 @@ int main() {
     } else if (op == '/') {
         // Evita divisão por zero
         if (mN2 != 0) {
+            int dvs = mN1 / mN2;
             printf("Resultado: %d\n", dvs);
         } else {
             printf("Erro: Nao e possivel dividir por zero.\n");
