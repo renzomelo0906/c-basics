@@ -34,7 +34,7 @@ int main() {
             printf("Erro: Nao e possivel dividir por zero.\n");
         }
     } else {
-        printf("Bota algo certo porra\n");
+        printf("Operacao invalida! Use + - * ou /\n");
     }
    
     return 0;
