@@ -16,7 +16,6 @@ gcc tabuada.c -o tabuada
 ./tabuada
 ```
 
-> Prompts and variable names are in Portuguese.
-> `quente-frio.c` uses `_sleep()`, which only exists on Windows (MinGW/MSVC).
+> Prompts and variable names are in Portuguese. All programs compile on Windows (MinGW) and Linux.
 
 ➡️ More advanced projects: [c-projects](https://github.com/renzomelo0906/c-projects)
